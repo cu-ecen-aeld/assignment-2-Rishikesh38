@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
     // Extract arguments
     const char *writefile = argv[1];
     const char *writestr = argv[2];
-
+    // Credits : Pasted my original code that I wrote for write.sh and asked Chatgpt to convert it into C.
     // Open the file for writing
     FILE *file = fopen(writefile, "w");
     if (file == NULL) {
